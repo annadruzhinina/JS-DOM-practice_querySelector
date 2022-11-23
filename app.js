@@ -25,7 +25,8 @@ const link = document.getElementById("link-1");
 console.log(link);
 // 7. Select all elements that contain a "data-target" attribute
 const linkBy_Attribute = document.querySelectorAll('[data-link="1"]');
+//const link = document.querySelector('[data-link="1"]');
 console.log(linkBy_Attribute);
 // 8. Select all elements where the data-target attribute equals "#false"
-const linkNoAttribute = document.querySelectorAll("[data-link='#false']");
-console.log(linkNoAttribute);
+const linkIdAttribute = document.getElementById("#false");
+console.log(linkIdAttribute);
